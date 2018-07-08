@@ -3,13 +3,17 @@
     margin: 0px;
     padding: 0px;
    }
-   #wrapper{
+body{
+    background-color: rgb(41, 57, 148);
+   }
+
+#wrapper{
     width: 950px;
     background-color: rgb(41, 57, 148);
     margin: 0px auto;
     padding: 10px;
    }
-   #header{
+#header{
     width: 920px;
     background-color: rgb(221, 69, 69);
     display: block;
@@ -18,7 +22,7 @@
     color: silver;
     border-radius: 8px;
    }
-   #navigation{
+#navigation{
     width: 200px;
     background-color: rgb(51, 139, 132);
     display: inline-block;
@@ -26,8 +30,9 @@
     border-radius: 15px;
     padding: 10px;
     vertical-align: top;
+    color: white;
    }
-   #main_content{
+#main_content{
     width: 680px;
     background-color: rgb(33, 33, 43);
     display: inline-block;
@@ -37,7 +42,7 @@
     
    }
    
-   footer{
+footer{
     width: 920px;
     background-color: rgb(126, 123, 123);
     display: block;
@@ -47,10 +52,18 @@
     color: rgb(214, 219, 255);
    }
 
-   .purple {
+.purple {
        color: rgb(87, 65, 167);
    }
 
-   #main_content h2, #main_content p, #main_content li {
+#main_content h2, #main_content p, #main_content li {
        margin-bottom: 10px;
    }
+   
+li {
+       margin-left: 20px;
+   }
+
+#no_bullet {
+    list-style-type: none;
+    }
