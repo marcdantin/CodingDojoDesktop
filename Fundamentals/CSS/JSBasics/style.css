@@ -34,9 +34,10 @@
     color: silver;
     border-radius: 15px;
     padding: 10px;
+    
    }
    
-   #footer{
+   footer{
     width: 920px;
     background-color: rgb(126, 123, 123);
     display: block;
@@ -47,5 +48,9 @@
    }
 
    .purple {
-       color: rgb(62, 43, 129);
+       color: rgb(87, 65, 167);
+   }
+
+   #main_content h2, #main_content p, #main_content li {
+       margin-bottom: 10px;
    }
