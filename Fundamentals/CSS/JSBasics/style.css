@@ -1,0 +1,51 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: rgb(41, 57, 148);
+    margin: 0px auto;
+    padding: 10px;
+   }
+   #header{
+    width: 920px;
+    background-color: rgb(221, 69, 69);
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: silver;
+    border-radius: 8px;
+   }
+   #navigation{
+    width: 200px;
+    background-color: rgb(51, 139, 132);
+    display: inline-block;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    vertical-align: top;
+   }
+   #main_content{
+    width: 680px;
+    background-color: rgb(33, 33, 43);
+    display: inline-block;
+    color: silver;
+    border-radius: 15px;
+    padding: 10px;
+   }
+   
+   #footer{
+    width: 920px;
+    background-color: rgb(126, 123, 123);
+    display: block;
+    margin-top: 20px;
+    border-radius: 18px;
+    padding: 15px;
+    color: rgb(214, 219, 255);
+   }
+
+   .purple {
+       color: rgb(62, 43, 129);
+   }
