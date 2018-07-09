@@ -1,56 +1,72 @@
 *{
     outline: 1px solid red;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0px auto;
+    background-color: #0E0E0E;
 }
-#head {
+#wrapper {
     width: 950px;
-    background-color: grey;
-}
-#header {
-    min-height: 75px;
-    margin-right: 350px;
-    padding-top: 15px;
-    margin-left: 20px;
-    display: inline-block;
-    font: "papyrus";
+    margin: 0px auto;
+    
 }
 
-#catchphrase {
+header {
+    width: 950px;
+    background-color: #F4F4F4;
+    height: 80px;
+    
+}
+
+header h1 {
+    width: 400px;
+    margin-left: 20px;
+    display: inline-block;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+header h2 {
+    margin-left: 100px;
     text-align: right;
     display: inline-block;
+    font-size: 140%;
 }
 
 #main {
     width: 950px;
-    background-color: purple;
-    min-height: 300px;
+    background-color: #6F5964;
     display: inline-block;
 
 }
 
+#about_me_section {
+    min-height: 350px;
+}
 #me {
-    height: 300px;
-    margin: 10px;
-    border: 6px solid grey;
+    height: 250px;
+    margin: 20px;
+    border: 6px solid #C0C0C0;
     display: inline-block;
 }
 
 #about_me {
     display: inline-block;
+    height: 250px;
     max-width: 400px;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .banner {
     background: linear-gradient(white, grey, white);
     color: white;
-    height: 35px;
-    line-height: 35px;
+    height: 40px;
+    margin: 0px;
+    line-height: 40px;
     vertical-align: middle;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding-left: 10px;
 }
 #intro {
     display: inline-block;
@@ -59,6 +75,7 @@ body {
 
 #three_boxes {
     width: 950px;
+    padding-bottom: 25px;
 }
 
 .box {
@@ -68,7 +85,7 @@ body {
     background: white;
 }
 .box_image{
-    width: 220px;
+    width: 270px;
 }
 .boxtext {
     background: white;
@@ -79,21 +96,31 @@ body {
 .greenbutton {
     text-align: center;
     color: white;
-    background-color: green;
+    background-color: #407D61;
     margin: 3px 20px 10px;
     border-radius: 6px;
 }
 
 footer {
-    width: 950px;
+    width: 930px;
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
+}
+
+#contact {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 #social{
     display: inline;
 }
 
+
 .footer_icon {
     width: 20px;
+}
+
+#social a {
+    padding-bottom: 5px;
 }
