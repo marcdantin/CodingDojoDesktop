@@ -23,7 +23,7 @@
 #main {
     width: 950px;
     background-color: purple;
-    min-height: 500px;
+    min-height: 300px;
     display: inline-block;
 
 }
@@ -41,10 +41,47 @@
     margin: 20px;
 }
 
-#about {
-    background-color: Grey;
+.banner {
+    background: linear-gradient(white, grey, white);
+    color: white;
 }
 #intro {
     display: inline-block;
     background-color: white;
+}
+
+#three_boxes {
+    width: 950px;
+    background: white;
+}
+
+.box {
+    width: 230px;
+    display: inline-block;
+}
+.box_image{
+    width: 220px;
+}
+.boxtext {
+    background: white;
+
+}
+
+.greenbutton {
+    text-align: center;
+    
+}
+
+footer {
+    width: 950px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+#social{
+    display: inline;
+}
+
+.footer_icon {
+    width: 20px;
 }
