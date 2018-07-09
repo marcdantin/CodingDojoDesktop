@@ -24,5 +24,27 @@
     width: 950px;
     background-color: purple;
     min-height: 500px;
+    display: inline-block;
 
+}
+
+#me {
+    height: 300px;
+    margin: 10px;
+    border: 6px solid grey;
+    display: inline-block;
+}
+
+#about_me {
+    display: inline-block;
+    max-width: 400px;
+    margin: 20px;
+}
+
+#about {
+    background-color: Grey;
+}
+#intro {
+    display: inline-block;
+    background-color: white;
 }
