@@ -1,8 +1,11 @@
 *{
     outline: 1px solid red;
+    
 }
 
-
+body {
+    margin: 0px auto;
+}
 #head {
     width: 950px;
     background-color: grey;
@@ -13,6 +16,7 @@
     padding-top: 15px;
     margin-left: 20px;
     display: inline-block;
+    font: "papyrus";
 }
 
 #catchphrase {
@@ -44,6 +48,9 @@
 .banner {
     background: linear-gradient(white, grey, white);
     color: white;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
 }
 #intro {
     display: inline-block;
@@ -52,24 +59,29 @@
 
 #three_boxes {
     width: 950px;
-    background: white;
 }
 
 .box {
-    width: 230px;
+    width: 270px;
+    margin: 0px 20px;
     display: inline-block;
+    background: white;
 }
 .box_image{
     width: 220px;
 }
 .boxtext {
     background: white;
+    height: 200px;
 
 }
 
 .greenbutton {
     text-align: center;
-    
+    color: white;
+    background-color: green;
+    margin: 3px 20px 10px;
+    border-radius: 6px;
 }
 
 footer {
