@@ -1,4 +1,28 @@
 *{
-    margin: 1px;
-    color: red;
+    outline: 1px solid red;
+}
+
+
+#head {
+    width: 950px;
+    background-color: grey;
+}
+#header {
+    min-height: 75px;
+    margin-right: 350px;
+    padding-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#catchphrase {
+    text-align: right;
+    display: inline-block;
+}
+
+#main {
+    width: 950px;
+    background-color: purple;
+    min-height: 500px;
+
 }
