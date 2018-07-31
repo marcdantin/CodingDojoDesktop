@@ -9,3 +9,13 @@ body{
     width: 970px;
     margin: 0px auto;
 }
+
+header{
+    height: 200px;
+}
+#python{
+    width: 300px;
+}
+#nav{
+    height: 75px;
+}
