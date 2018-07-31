@@ -2,20 +2,45 @@
     outline: 1px solid red;
 }
 body{
-    background-color: #245076;
+    background-color: #000000;
 }
 
 #wrapper{
     width: 970px;
     margin: 0px auto;
+    background-color: #245076;
 }
 
 header{
     height: 200px;
+    
 }
 #python{
     width: 300px;
 }
+
+#headRight{
+    display: inline-block;
+}
+#fullSearchBox{
+    background-color: #444444;
+    height: 80px;
+    width: 200px;
+    
+}
+#searchBox{
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 80px;
+}
+
+#goBox{
+    background-color: #245076;
+    height: 45px;
+    width: 55px;
+    display: inline;
+}
+
 #nav{
     height: 75px;
 }
