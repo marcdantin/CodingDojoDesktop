@@ -1,0 +1,11 @@
+*{
+    outline: 1px solid red;
+}
+body{
+    background-color: #245076;
+}
+
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+}
