@@ -3,6 +3,7 @@
 }
 body{
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 #wrapper{
@@ -17,6 +18,7 @@ header{
 }
 #python{
     width: 300px;
+    margin-right: 100px;
 }
 
 #headRight{
@@ -24,23 +26,38 @@ header{
 }
 #fullSearchBox{
     background-color: #444444;
-    height: 80px;
+    height: 60px;
     width: 200px;
+    padding: 10px;
+    
     
 }
 #searchBox{
     background-color: #FFFFFF;
     height: 50px;
     width: 80px;
+    color: #B7B7B7;
 }
 
 #goBox{
     background-color: #245076;
-    height: 45px;
+    height: 35px;
     width: 55px;
-    display: inline;
+    display: inline-block;
 }
 
 #nav{
     height: 75px;
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-top: 20px;
+    background-color: #487FAD;
+}
+
+#nav h3{
+    display: inline;
+    margin-left: 20px;
+
+    
 }
