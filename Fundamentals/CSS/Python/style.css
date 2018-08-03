@@ -22,7 +22,11 @@ header{
 }
 
 #headRight{
+    vertical-align: top;
     display: inline-block;
+}
+h5{
+    
 }
 #fullSearchBox{
     background-color: #444444;
@@ -37,6 +41,8 @@ header{
     height: 50px;
     width: 80px;
     color: #B7B7B7;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #goBox{
@@ -44,6 +50,7 @@ header{
     height: 35px;
     width: 55px;
     display: inline-block;
+    vertical-align: top;
 }
 
 #nav{
@@ -56,8 +63,65 @@ header{
 }
 
 #nav h3{
-    display: inline;
+    display: inline-block;
+    vertical-align: top;
     margin-left: 20px;
+  
+}
 
+#bodone{
+    width: 900px;   
+}
+
+#list{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
     
+}
+
+#list ul{
+    list-style-type: none;
+}
+
+.bullet{
+    font-size: 25%;
+}
+#rightbodone{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; 
+}
+
+#rightbodone h3{
+    color: yellow;
+}
+
+#bodtwo {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+#bodtwoleft {
+    width: 400px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#bodtworight {
+    width: 400px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+footer h4{
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer h5{
+    text-align: center;
 }
