@@ -1,5 +1,6 @@
 *{
     outline: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: #000000;
@@ -30,32 +31,44 @@ h5{
 }
 #fullSearchBox{
     background-color: #444444;
-    height: 60px;
+    height: 35px;
     width: 200px;
     padding: 10px;
+    border-radius: 5px;
     
     
 }
 #searchBox{
     background-color: #FFFFFF;
-    height: 50px;
-    width: 80px;
+    height: 25px;
+    width: 150px;
     color: #B7B7B7;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
+    border-color: #8B8B8B;
+    border-style: inset;
+    border-width: 1px;
 }
 
 #goBox{
     background-color: #245076;
-    height: 35px;
-    width: 55px;
+    height: 20px;
+    width: 40px;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 75%;
+    border-radius: 5px;
+    border-color: #6c6c6c;
+    border-style: outset;
+    border-width: 1px;
 }
 
 #nav{
-    height: 75px;
-    width: 600px;
+    height: 50px;
+    width: 800px;
     margin-top: 25px;
     margin-left: 100px;
     padding-top: 20px;
